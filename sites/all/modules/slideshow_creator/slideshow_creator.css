@@ -1,0 +1,14 @@
+.ssc, .ssc-content, .ssc-content span {
+  display:block;
+  text-align:center;
+  margin:auto;
+}
+
+.ssc-content {
+  overflow:hidden;
+  text-align: left;
+}
+
+.ssc-title {
+  font-weight:bold;
+}

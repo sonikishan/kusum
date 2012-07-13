@@ -1,0 +1,104 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+body {
+  background: none repeat scroll 0 0 #36647F;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+h1.site-name a,
+h2.site-name a{
+  color: #640F12;
+}
+nav.navigation {
+  float: right;
+  padding-bottom: 15px;
+}
+nav.navigation ul#main-menu.links li a.active {
+  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 8px;
+  background: #640F12;
+}
+
+nav.navigation ul#main-menu.links li a {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 8px;
+  margin-right: 2px;
+  background: #640F12;
+  border-radius: 12px;
+}
+
+nav.navigation ul#main-menu.links li a:hover {
+  font-weight: bold;
+  color: #000000;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 8px;
+  background: #c04c5c;
+}
+
+nav.navigation ul#main-menu.links li {
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.view.view-products.view-id-products.view-display-id-block_1.products-list table.views-view-grid {
+  background: #CECECE; 
+  border-radius: 8px;
+  border: none;
+} 
+
+.view-products.view-id-products.view-display-id-block_1 div.view-content table.views-view-grid tbody tr td a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.pane-title {
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table.views-view-grid tbody tr td {
+  border: 1px solid #CECECE;
+  text-align: center;
+}
+
+table.views-view-grid tbody tr td:hover {
+  box-shadow: 0 0 7px #0066FF;
+  background:  none repeat scroll 0 0 #F7F7F7;
+  z-index: 1;
+}
+
+form#webform-client-form-12 fieldset#webform-component-name {
+  font-weight: bold;
+  padding: 8px;
+}
+form#webform-client-form-12.webform-client-form div fieldset#webform-component-contact legend {
+  font-weight: bold;
+}
+form#webform-client-form-12.webform-client-form div fieldset#webform-component-name.webform-component-fieldset div.fieldset-wrapper div#webform-component-name--first,
+form#webform-client-form-12.webform-client-form div fieldset#webform-component-name.webform-component-fieldset div.fieldset-wrapper div#webform-component-name--middle,
+form#webform-client-form-12.webform-client-form div fieldset#webform-component-name.webform-component-fieldset div.fieldset-wrapper div#webform-component-name--last,
+form#webform-client-form-12.webform-client-form div div#webform-component-city,
+form#webform-client-form-12.webform-client-form div div#webform-component-country,
+form#webform-client-form-12.webform-client-form div div#webform-component-state{
+  float: left;
+  margin-right: 10px;
+  padding: 0px;
+}
+
+form#webform-client-form-12.webform-client-form div fieldset#webform-component-contact {
+  clear:both;
+}
+form#webform-client-form-12.webform-client-form div fieldset#webform-component-address.webform-component-fieldset legend span.fieldset-legend {
+  font-weight: bold;
+}
